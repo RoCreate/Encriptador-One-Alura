@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Encriptador</title>
+        <link rel="stylesheet" href="estilos.css">     
+    </head>
+    <body>
+        <header class="logo">
+            <img class="logoImg"src="imagenes/Vector.png" alt="logo del proyecto">
+        </header>
+        <main class="fondo">
+            <h1 class="title">Encriptador de texto</h1>
+            <section class="blockLeft">
+                <textarea class="textIn"cols="80" rows="20" placeholder="Ingrese el texto aqui"></textarea>
+                <div class="buttons">
+                    <button class="butEncrip" onclick="botonEncrip()">Encriptar</button>
+                    <button class="butDesencrip" onclick="botonDesencrip()">Desencriptar</button>
+                </div>
+            </section>
+            <section class="blockRight">
+                <h2 class="textoCopy">Ningun mensaje fue encontrado</h2>
+                <textarea class="textOut" cols="40" rows="10">Texto encriptado</textarea>
+                <button class="buttonCopy" onclick="botonCopy()">Copiar</button>
+            </section>
+        </main>
+        <footer>
+            <p>⏳Built by: Romina Bertello|2022</p>
+        </footer>
+        <script src="funcion.js"></script>  
+    </body>
+</html>
